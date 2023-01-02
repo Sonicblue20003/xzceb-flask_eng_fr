@@ -1,6 +1,5 @@
 import unittest
-from translator import french_to_english 
-from translator import english_to_french
+from translator import french_to_english, english_to_french
 
 class testMyModuleF(unittest.TestCase):
     def test_french_to_english(self):
